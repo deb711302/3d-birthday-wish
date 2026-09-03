@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="content" class="content">
+        <div class="container">
+            <h1 class="title">Happy Birthday! 🎂</h1>
+            <p class="subtitle">To someone special...</p>
+            <div class="message-box">
+                <p id="message" class="message">Wishing you a day filled with joy, laughter, and endless moments of happiness!</p>
+            </div>
+            <div class="button-group">
+                <button onclick="startAnimation()" class="btn btn-primary">🎊 Celebrate!</button>
+                <button onclick="toggleSound()" class="btn btn-secondary" id="soundBtn">🔊 Sound ON</button>
+            </div>
+            <div class="countdown">
+                <p>Make a wish in...</p>
+                <div id="counter" class="counter">10</div>
+            </div>
+            <div class="wishes">
+                <h2>Birthday Wishes for You:</h2>
+                <ul>
+                    <li>✨ May all your dreams come true!</li>
+                    <li>🎈 Another year older, another year wiser!</li>
+                    <li>💝 Surrounded by love and laughter!</li>
+                    <li>🌟 Here's to new adventures ahead!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
